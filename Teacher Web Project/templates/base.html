@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Teacher Template Project</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+  </head>
+<body>
+  <nav>
+<body style="background-color: #FFFEC4; font-family:verendas">
+    <div class="nav-wrapper" style="background-color: #B0413E">
+      <ul class="right" style="color: #721121; padding-right: 10px"><strong><a href="/index">Home</a><strong></ul>
+      <ul class="left">
+        <li><a href="/gillespie">Mrs. Gillespie</a></li>
+        <li><a href="/ballard">Mr. Ballard</a></li>
+        <li><a href="/rogan">Mr. Rogan</a></li>
+        <li><a href="/rosborough">Mr. Rosborough</a></li>
+        <li><a href="/wa">Mrs. Wattleton-Anderson</a></li>
+  </nav>
+  {% block content %} {% endblock %}
+
+  {% block footer %}
+  <footer style:"display: flex; min-height: 100vh; flex-direction: column; flex: 1 0 auto; position:fixed">
+    <div class="footer-copyright wow fadeIn py-3 text-center" style="visibility: visible; animation-name: fadeIn; aninmation-delay: 0.3s;">
+      <div class="container-fluid">
+        &copy; Made by Madeleine. Email: mbeckwith@altamontschool.org
+      </div>
+    </div>
+  </footer>
+  {% endblock %}
+</body>
+</html>
